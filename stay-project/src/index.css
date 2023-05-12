@@ -1,0 +1,779 @@
+
+body {
+  
+  max-width: 90%;
+  margin:  0 auto;
+  
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Display{
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.Display .Nav{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  width: 25%;
+  color: rgb(0, 0, 0);
+font-family: 'Open Sans', sans-serif;
+font-size: 80%;
+
+}
+.Main{
+  background: linear-gradient(270.00deg, rgba(79,138,204,1.00),rgba(191,139,248,1.00));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+}
+
+
+.Catalog11:hover{
+  background: linear-gradient(270.00deg, rgba(79,138,204,1.00),rgba(191,139,248,1.00));
+  -webkit-background-clip:
+  text;
+  -webkit-text-fill-color:
+  transparent;
+  background-clip:
+  text;
+}
+
+.Contacts:hover{
+  background: linear-gradient(270.00deg, rgba(79,138,204,1.00),rgba(191,139,248,1.00));
+  -webkit-background-clip:
+  text;
+  -webkit-text-fill-color:
+  transparent;
+  background-clip:
+  text;
+}
+
+.Info:hover{
+  background: linear-gradient(270.00deg, rgba(79,138,204,1.00),rgba(191,139,248,1.00));
+  -webkit-background-clip:
+  text;
+  -webkit-text-fill-color:
+  transparent;
+  background-clip:
+  text;
+}
+
+.Podstay{
+  text-align: center;
+}
+.Pod1{
+  color: rgb(44, 44, 44);
+font-family: Montserrat;
+font-size: 55px;
+
+}
+.Pod2{
+  color: rgb(19, 55, 51);
+font-family: Montserrat;
+font-size: 16px;
+}
+
+
+.One{
+  position: relative;
+  top: 100px;
+}
+
+
+.Reserve{
+  position: absolute;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+background: linear-gradient(90.00deg, rgba(114,182,233,1.00),rgba(195,139,249,1.00) 100%);
+padding: 0.5%;
+padding-left: 1%;
+padding-right: 1%;
+border-radius: 50px;
+top: 165%;
+left: 74%;
+}
+.Inf1{
+  text-align: left;
+  margin-top: 55%;
+  color: rgb(2, 2, 2);
+font-family: Montserrat;
+font-size: 25px;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0px;
+}
+.Welcome1{
+  font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+}
+.Reserve1{
+  color: white;
+  font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+background-color: black;
+display: inline-block;
+padding: 0.5%;
+padding-left: 1%;
+padding-right: 1%;
+border-radius: 50px;
+}
+
+
+.Inf2{
+  text-align: left;
+  position: absolute;
+  right: 13%;
+  top: 253%;
+  color: rgb(2, 2, 2);
+font-family: Montserrat;
+font-size: 25px;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0px;
+}
+
+
+
+
+a{
+  text-decoration: none;
+color: black;
+}
+.Join a{
+  color: white;
+}
+
+.Reserve1 a{
+  color: white;
+}
+
+
+.cl{
+display: flex;
+flex-direction: column;
+}
+
+
+.Caps1{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  margin: 0 auto;
+  
+
+}
+.Caps2{
+  position: absolute;
+  top: 108%;
+  right: 43%;
+  width: 25%;
+  background: linear-gradient(144.25deg, rgba(113,181,233,1.00) 11.618%,rgba(195,139,249,1.00) 86.662%);
+  padding-left: 50%;
+  padding-right: 4%;
+  border-radius: 276px;
+
+}
+.Line1{
+  position: absolute;
+  top: 105%;
+  left: 70%;
+  width: 8%;
+}
+
+.Caps3{
+  position: absolute;
+  width: 30%;
+  left: 65%;
+}
+
+.Caps4{
+  position: absolute;
+  top: 254%;
+  right: 43%;
+  width: 30%;
+  background: linear-gradient(179.03deg, rgba(131,172,236,1.00) -4.852%,rgba(73,197,215,1.00) 97.188%);
+
+  padding-left: 50%;
+  padding-right: 4%;
+  border-radius: 276px;
+}
+.Line2{
+  position: absolute;
+  top: 250%;
+  left: 70%;
+  width: 8%;
+}
+
+.Three{
+  position: relative;
+  top: 200px;
+}
+
+.Two{
+  position: relative;
+  
+}
+
+
+.Homes1, .Homes2, .Homes3, .Homes4, .Homes5, .Homes6, .Homes7, .Homes8{
+  width: 37vh;
+}
+.Homes{
+  margin-top: 5%;
+  text-align: center;
+  
+}
+.Homes a{
+  font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0px;
+background: linear-gradient(270.00deg, rgba(71,138,201,1.00),rgba(195,139,249,1.00) 100%);
+padding: 4%;
+border-radius: 50px;
+transition-duration: 400ms;
+}
+
+.Homes a:hover{
+  padding: 5%;
+}
+
+
+
+.Hs1{
+  display: flex;
+  justify-content: space-between;
+   max-width: 100%;
+  margin: auto;
+  
+}
+.Hs2{
+  display: flex;
+  justify-content: space-between;
+   max-width: 100%;
+  margin: auto;
+  margin-top: 5%;
+}
+.Hs2 a{
+  background: linear-gradient(90.00deg, rgba(74,197,216,1.00),rgba(131,172,236,1.00) 100%);
+}
+
+
+.Homes1-1{
+  width: 450px;
+  height: 450px;
+ }
+ h2{
+  font-family: Montserrat;
+font-size: 50px;
+font-weight: 800;
+line-height: 88px;
+letter-spacing: 0px;
+text-align: center;
+ }
+
+ .P1, .P12, .P13, .P14{
+  display: flex;
+  justify-content: space-between;
+  max-width: 95%;
+  color: rgb(19, 55, 51);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+border-bottom: 1px solid rgb(211, 211, 211);
+ }
+ 
+
+ .P5{
+  background: linear-gradient(270.00deg, rgba(237.92,90.25,0,1.00),rgba(69.44,69.44,69.44,1.00));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+ }
+.P-one{
+  background: linear-gradient(270.00deg, rgba(0,114.86,237.92,1.00),rgba(69.44,69.44,69.44,1.00));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+}
+
+ .P2{
+  background: linear-gradient(270.00deg, rgba(79,138,204,1.00),rgba(191,139,248,1.00));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+
+ }
+
+
+
+ .Buy{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0;
+  font-family: Montserrat;
+ }
+ #price{
+  font-size: 25px;
+  color: #000000;
+ }
+#price1{
+  font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+background: linear-gradient(90.00deg, rgba(114,182,233,1.00),rgba(195,139,249,1.00) 100%);
+padding: 0.5%;
+text-align: center;
+border-radius: 50px;
+ }
+  #bron{
+    display: flex;
+    justify-content: space-between;
+  }
+  #total-price{
+    font-size: 25px;
+  color: rgb(155, 155, 155);
+
+  }
+  .Catalog11 a{
+    color: #008a60;
+  }
+ .Catalog11:hover{
+  background: linear-gradient(90.00deg, rgba(188,139,247,1.00),rgba(83,138,205,1.00));
+  -webkit-background-clip:
+  text;
+  -webkit-text-fill-color:
+  transparent;
+  background-clip:
+  text;
+  text-fill-color:
+  transparent;
+ }
+ .P3{
+  background: linear-gradient(270.00deg, rgba(129.82,255,120.55,1.00),rgba(69.44,69.44,69.44,1.00));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+ }
+
+ .P4{
+
+
+background: linear-gradient(270.00deg, rgba(237.92,196.9,0,1.00),rgba(69.44,69.44,69.44,1.00));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+
+
+ }
+.calendar{
+  font-family: Montserrat;
+  
+}
+ .react-calendar {
+  width:400px;
+  max-width: 100%;
+  background-color: #fff;
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+}
+ 
+.react-calendar__navigation button {
+  color: #b200d1;
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+}
+ 
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #f8f8fa;
+}
+.react-calendar__navigation button[disabled] {
+  background-color: #f0f0f0;
+}
+abbr[title] {
+  text-decoration: none;
+}
+ 
+/* .react-calendar__month-view__days__day--weekend {
+  color: #d10000;
+ } */
+ 
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background: #f8f8fa;
+  color: #d4a713;
+  border-radius: 6px;
+}
+ 
+.react-calendar__tile--now {
+  background: #d4a71333;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #000000;
+}
+ 
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #d4a71333;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #d4a713;
+}
+ 
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #f8f8fa;
+}
+ 
+.react-calendar__tile--active {
+  background: #d4a713;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+}
+ 
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #d4a713;
+  color: white;
+}
+ 
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #f8f8fa;
+}
+ 
+.react-calendar__tile--range {
+  background: #f8f8fa;
+  color: #d4a713;
+  border-radius: 0;
+}
+ 
+.react-calendar__tile--rangeStart {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: #d4a713;
+  color: white;
+}
+ 
+.react-calendar__tile--rangeEnd {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: #d4a713;
+  color: white;
+}
+
+.text-center{
+  font-size: 18px;
+}
+
+input{
+  border-radius: 50px;
+  width: 50px;
+  border: 2px solid rgba(195,139,249,1.00);
+  font-family: Montserrat;
+  color: rgba(195,139,249,1.00);
+  margin-left:17px;
+}
+button{
+  font-family: Montserrat;
+  margin-left: 5%;
+  background: linear-gradient(270.00deg, rgba(71,138,201,1.00),rgba(195,139,249,1.00) 100%);
+  border: none;
+  padding: 12px;
+  border-radius: 50px;
+  font-size: 12px;
+}
+ 
+
+#list{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.25);
+width: 25%;
+margin: 0 auto;
+margin-top: 17%;
+padding: 5%;
+border-radius: 50px;
+}
+#list input{
+  width: 300px;
+  height: 30px;
+  border: 1px solid rgba(195,139,249,1.00);
+
+}
+#mail, #tel{
+  font-family: Montserrat;
+  font-size: 12px;
+  margin-left: 25px;
+}
+#tel{
+  margin-top: 30px;
+}
+#notification{
+  margin: auto;
+}
+#vso{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+
+}
+#btn2 button{
+  margin-top: 20%;
+  margin-left: 220%;
+  font-size: 25px;
+  border-radius: 100px;
+  font-family: Montserrat;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 10px 100px rgb(120, 80, 255);
+   background: linear-gradient(90.00deg, rgba(186,144,247,1.00),rgba(108,150,213,1.00));
+  -webkit-background-clip:
+  text;
+  -webkit-text-fill-color:
+  transparent;
+  background-clip:
+  text;
+  text-fill-color:
+  transparent; 
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+#btn2 button:hover{
+  box-shadow: 0px 10px 100px rgb(59, 85, 255);
+}
+
+#about-us{
+  text-align: center;
+  font-family: Montserrat;
+}
+#about-us #inform{
+  font-size: 20px;
+}
+#slogan{
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 50px;
+  display:inline-block;
+  padding: 10px;
+}
+#my-contacts{
+  font-family: Montserrat;
+  background-color: white;
+box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.25);
+width: 40%;
+margin: 0 auto;
+margin-top: 10%;
+padding: 70px;
+border-radius: 50px;
+position: relative;
+  
+}
+.Caps10{
+  width: 50%;
+  position: absolute;
+  left: 60%;
+  top: 30%;
+}
+#mail11, #social{
+  margin-top: 40px;
+  
+}
+#num, #mail2, #soc{
+  text-transform: uppercase;
+color: #008a60;
+}
+
+.Catalog11:hover{
+  background: linear-gradient(90.00deg, rgba(188,139,247,1.00),rgba(83,138,205,1.00));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+}
+
+#c1{
+height:0px;
+}
+#auth1{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.25);
+font-family: Montserrat;
+width: 25%;
+margin: 0 auto;
+margin-top: 5%;
+padding: 5%;
+padding-top: 4%;
+border-radius: 50px;
+  
+}
+#auth input{
+  width: 300px;
+  height: 30px;
+  text-align: left;
+}
+#quest{
+  position: relative;
+  top: 700px;
+}
+
+label{
+  font-family: Montserrat;
+}
+h3{
+  font-family: Montserrat;
+  text-align: center;
+}
+#q1{
+  width:230%;
+}
+
+#hq{
+  display: flex;
+  justify-content: space-between;
+}
+#parametr{
+  width: 50%;
+  
+}
+#P1-1, #P12-1, #P13-1, #P14-1{
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 1000px;
+  color: rgb(19, 55, 51);
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0px;
+border-bottom: 1px solid rgb(211, 211, 211);
+ }
+
+
+ #podh1{
+  display: none;
+  margin-bottom: 200px;
+  
+ }
+
+ #podh2{
+  display: none;
+  position: absolute;
+  top: 357%;
+  
+ }
+
+ #hms{
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+ }
+ 
+ #resrve3{
+  font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+background: linear-gradient(90.00deg, rgba(114,182,233,1.00),rgba(195,139,249,1.00) 100%);
+padding: 0.5%;
+padding-left: 1%;
+padding-right: 1%;
+border-radius: 50px;
+text-align: center;
+
+ }
+
+
+ #hms1{
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+ }
+ 
+ #resrve4{
+  font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+background: linear-gradient(90.00deg, rgba(74,197,216,1.00),rgba(131,172,236,1.00) 100%);
+padding: 0.5%;
+padding-left: 1%;
+padding-right: 1%;
+border-radius: 50px;
+
+
+ }
+
+ #parametr1{
+  width: 50%;
+  margin-right: 2.5%;
+  
+}
