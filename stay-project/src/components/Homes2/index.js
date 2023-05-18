@@ -35,7 +35,7 @@ return(
     
 </div>
 
-<h2>Бронируйте в два клика!</h2>
+<h2 id="broniruite">Бронируйте в два клика!</h2>
 
 <div className="Buy">
 <div className="Homes1-1"><img src="./homes2.png" alt="home" className="Homes1-1"/></div>
