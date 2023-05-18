@@ -39,24 +39,14 @@ return(
 
    <div className="Buy">
 <div className="Homes1-1"><img src="./homes1.png" alt="home" className="Homes1-1"/></div>
+
 <div className="Pp"><div className="P1"><p>Максимальное кол-во мест: </p> <p className="P2">2</p>  </div>
 <div className="P1"><p>Встроеный WiFi:</p> <p className="P5">Xiaomi</p> </div>
 <div className="P12"><p>Приставки:</p> <p className="P-one">PlayStation</p> </div>
 <div className="P13"><p>Доставка:</p> <p className="P3">Delivery Club</p> </div>
 <div className="P14"><p>Такси отеля:</p> <p className="P4">Яндекс GO</p> </div>
 
-<div id="bron">
-        <div id="price">
-          <p>Стоимость:</p>
-        </div>
-        <div id="total-price">
-          <p>{totalPrice} ₽</p>
-        </div>    
-</div>
-<div id="price1">
-<Link to ='/information'>Забронировать</Link>
-      </div>
-</div>
+
 
 <div className='calendar'>
       <h1 className='text-center'>Дата заселения</h1>
@@ -68,11 +58,22 @@ return(
         {date.toDateString()}
       </p>
 
-      <label htmlFor="days-count">Выберите кол-во дней:</label>
+      <label htmlFor="days-count" id="d-c">Выберите кол-во дней:</label>
       <input type="number" id="days-count" min={1} max={10} />
       <button className="calculate-price-btn" onClick={handleCalculatePriceClick}>
         Готово
-      </button>
+      </button><div id="bron">
+        <div id="price">
+          <p>Стоимость:</p>
+        </div>
+        <div id="total-price">
+          <p>{totalPrice} ₽</p>
+        </div>    
+</div>
+<div id="price1">
+<Link to ='/information'>Забронировать</Link>
+      </div>
+</div>
     </div>
       
       

@@ -543,15 +543,12 @@ button{
  
 
 #list{
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.25);
-width: 25%;
+ 
+
+width: 50%;
 margin: 0 auto;
 margin-top: 17%;
-padding: 5%;
-border-radius: 50px;
+
 }
 #list input{
   width: 300px;
@@ -562,23 +559,27 @@ border-radius: 50px;
 #mail, #tel{
   font-family: Montserrat;
   font-size: 12px;
-  margin-left: 25px;
+  
 }
 #tel{
   margin-top: 30px;
 }
 #notification{
+  background-color: white;
+  box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+  border-radius: 50px;
   margin: auto;
 }
 #vso{
   display: flex;
   justify-content: space-between;
-  width: 200px;
+  
 
 }
 #btn2 button{
-  margin-top: 20%;
-  margin-left: 220%;
+  margin-top: 50%;
+  margin-left: 0%;
   font-size: 25px;
   border-radius: 100px;
   font-family: Montserrat;
@@ -717,15 +718,16 @@ border-bottom: 1px solid rgb(211, 211, 211);
 
 
  #podh1{
-  display: none;
-  margin-bottom: 200px;
+  display: block;
+  margin-top:730px;
   
  }
 
  #podh2{
-  display: none;
+  display: block;
   position: absolute;
-  top: 357%;
+  top: 355%;
+  max-width: 95%;
   
  }
 
@@ -734,6 +736,7 @@ border-bottom: 1px solid rgb(211, 211, 211);
   justify-content: space-between;
   max-width: 400px;
  }
+
  
  #resrve3{
   font-family: Montserrat;
@@ -777,3 +780,7 @@ border-radius: 50px;
   margin-right: 2.5%;
   
 }
+#quest4{
+  margin-top: 20px;
+}
+

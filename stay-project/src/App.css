@@ -156,3 +156,934 @@ justify-content: center;
 margin-bottom: 150px;
 
  }
+
+ 
+
+
+ @media screen and ( max-width: 1024px ){
+  .Display{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .Display .Nav{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    width: 95%;
+    color: rgb(0, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  }
+  .Caps2{
+    position: absolute;
+    top: 108%;
+    right: 50%;
+    width: 25%;
+    background: linear-gradient(144.25deg, rgba(113,181,233,1.00) 11.618%,rgba(195,139,249,1.00) 86.662%);
+    padding-left: 50%;
+    padding-right: 4%;
+    border-radius: 276px;
+  }
+
+  .Line1{
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    width: 5%;
+  }
+  .Inf{
+    text-align: right;
+    position: absolute;
+    right: 38%;
+    top: -15px;
+    color: rgb(2, 2, 2);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0px;
+  }
+  .Welcome{
+    text-align: left;
+    position: absolute;
+    left: 51%;
+    top: 40px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0px;
+  width: 400px;
+  }
+  .Reserve{
+    position: absolute;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  background: linear-gradient(90.00deg, rgba(114,182,233,1.00),rgba(195,139,249,1.00) 100%);
+  padding: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 50px;
+  top: 200px;
+  left: 51%;
+  }
+  .Three{
+    top:100px;
+  }
+  .Line2{
+    position: absolute;
+    left: 49%;
+        width: 5%;
+  }
+  .Inf2{
+    text-align: left;
+    position: absolute;
+    right: 30%;
+    
+    color: rgb(2, 2, 2);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  }
+
+
+  .Welcome2{
+    text-align: left;
+    position: absolute;
+    left: 51%;
+    top:60px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0px;
+  width: 400px;
+  }
+  .Reserve2{
+    position: absolute;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  background: linear-gradient(90.00deg, rgba(74,197,216,1.00),rgba(131,172,236,1.00) 100%);
+  padding: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 50px;
+  top: 250px;
+  left: 51%;
+  }
+  .Caps4{
+    right: 50%;
+  }
+  #quest{
+    top: 400px
+  }
+  #quest4{
+    margin-top: 20px
+  }
+  #podh1{
+    margin-top: 440px;
+  }
+  #hms{
+    width: 35%
+  }#hms1{
+    width: 35%
+  }
+  #podh2{
+    top: 307%;
+  }
+  .Homes1,.Homes2,.Homes3,.Homes4,.Homes5,.Homes6,.Homes7,.Homes8{
+    width: 200px;
+    
+  }
+  #btn2 button{
+    margin-left: 55%;
+  }
+  .Caps10{
+    top: 60%;
+  }
+ }
+ 
+ @media screen and (max-width:768px){
+  .Display{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .Display .Nav{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    width: 95%;
+    color: rgb(0, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  
+  }
+
+  .Caps2{
+    position: absolute;
+    top: 108%;
+    right: 60%;
+    width: 25%;
+    background: linear-gradient(144.25deg, rgba(113,181,233,1.00) 11.618%,rgba(195,139,249,1.00) 86.662%);
+    padding-left: 50%;
+    padding-right: 4%;
+    border-radius: 276px;
+  
+  }
+
+  .Line1{
+    position: absolute;
+    top: 105%;
+    left: 40%;
+    width: 5%;
+  }
+  .Inf{
+    text-align: right;
+    position: absolute;
+    right: 47%;
+    top: -10px;
+    color: rgb(2, 2, 2);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0px;
+  }
+
+
+  .Welcome{
+    text-align: left;
+    position: absolute;
+    left: 42%;
+    top: 40px;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0px;
+  width: 400px;
+  }
+  .Reserve{
+    position: absolute;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  background: linear-gradient(90.00deg, rgba(114,182,233,1.00),rgba(195,139,249,1.00) 100%);
+  padding: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 50px;
+  top: 160px;
+  left: 42%;
+  }
+  .One{
+    top: 50px;
+  }
+
+  .Inf1{
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+
+  .Welcome1{
+   font-size: 13px;
+  line-height: 15px;
+  }
+  .Reserve1{
+   font-size: 10px;
+  }
+
+
+  .Three{
+    top:100px;
+  }
+
+  .Line2{
+    position: absolute;
+    left: 40%;
+        width: 5%;
+  }
+  .Inf2{
+    text-align: left;
+    position: absolute;
+    right: 40%;
+    
+    color: rgb(2, 2, 2);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0px;
+  }
+
+
+  .Welcome2{
+    text-align: left;
+    position: absolute;
+    left: 40%;
+    top:40px;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0px;
+  width: 400px;
+  }
+  .Reserve2{
+    position: absolute;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  background: linear-gradient(90.00deg, rgba(74,197,216,1.00),rgba(131,172,236,1.00) 100%);
+  padding: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 50px;
+  top: 175px;
+  left: 40%;
+  }
+  .Caps4{
+    right: 63%;
+  }
+  #quest{
+    top: 300px;
+  }
+  #quest1{
+    font-size: 25px;
+  }
+  #quest4{
+    margin-top: 30px;
+  }
+  .Homes1,.Homes2,.Homes3,.Homes4,.Homes5,.Homes6,.Homes7,.Homes8{
+    width: 150px;
+    
+  }
+  #podh1{
+    margin-top: 330px;
+  }
+  #hms{
+    width: 35%
+  }
+  #podh2{
+    top: 245%;
+  }
+  #hms1{
+    width: 35%
+  }
+  
+  .Hs2{
+    margin-top: 00px;
+  }
+  .Buy{
+    display: flex;
+    flex-direction: column;
+  }
+  .Homes1-1{
+    width: 50%;
+    height: 100%;
+  }
+
+  #list{
+    width: 70%;
+     margin: 0 auto;
+     margin-top: 17%;
+   }
+   
+     #list input{
+       width: 300px;
+       height: 30px;
+       border: 1px solid rgba(195,139,249,1.00);
+     
+     }
+     #mail, #tel{
+       font-family: Montserrat;
+       font-size: 12px;
+       margin-left: 20px;
+     }
+     #tel{
+       margin-top: 30px;
+     }
+     #notification{
+       background-color: white;
+       box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.25);
+       padding: 40px;
+       border-radius: 50px;
+       margin: auto;
+     }
+     
+     #btn2 button{
+       margin-top: 5%;
+       margin-left: 40%;
+       font-size: 25px;
+       border-radius: 100px;
+       font-family: Montserrat;
+       background: rgb(255, 255, 255);
+       box-shadow: 0px 10px 100px rgb(120, 80, 255);
+        background: linear-gradient(90.00deg, rgba(186,144,247,1.00),rgba(108,150,213,1.00));
+       -webkit-background-clip:
+       text;
+       -webkit-text-fill-color:
+       transparent;
+       background-clip:
+       text;
+       text-fill-color:
+       transparent; 
+      
+       padding-left: 30px;
+       padding-right: 30px;
+     }
+     #vso{
+      display: flex;
+      flex-direction: column;
+    }
+    #my-contacts{
+      
+      top: 50px;
+    }
+    .Caps10{
+      top:60%;
+    }
+
+ }
+ 
+ @media screen and (max-width:325px){
+  #quest1{
+    margin-top: 50px;
+    line-height: 20px;
+  }
+  #podh2{
+    
+      display: block;
+      position: absolute;
+      
+      
+     
+  }
+ }
+
+ @media screen and (max-width:450px)  {
+  .Display{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .Display .Nav{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    width: 95%;
+    color: rgb(0, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  
+  }
+
+  .Caps2{
+    position: absolute;
+    top: 108%;
+    right: 70%;
+    width: 25%;
+    background: linear-gradient(144.25deg, rgba(113,181,233,1.00) 11.618%,rgba(195,139,249,1.00) 86.662%);
+    padding-left: 50%;
+    padding-right: 4%;
+    border-radius: 276px;
+  
+  }
+
+  .Line1{
+    position: absolute;
+    top: 105%;
+    left: 30%;
+    width: 8%;
+  }
+  .Inf{
+    text-align: right;
+    position: absolute;
+    right: 50%;
+    top: -20px;
+    color: rgb(2, 2, 2);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0px;
+  }
+
+
+  .Welcome{
+    text-align: left;
+    position: absolute;
+    left: 31%;
+    top: 30px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0px;
+  width: 220px;
+  }
+  .Reserve{
+    position: absolute;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  background: linear-gradient(90.00deg, rgba(114,182,233,1.00),rgba(195,139,249,1.00) 100%);
+  padding: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 50px;
+  top: 160px;
+  left: 31%;
+  }
+  .One{
+    top: 50px;
+  }
+  .Pod2{
+    font-size: 10px;
+    margin-top: -20px;
+  }
+  .Two{
+    top: 100px;
+  }
+
+  .Inf1{
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+
+  .Welcome1{
+   font-size: 10px;
+  line-height: 10px;
+  }
+  .Reserve1{
+   font-size: 10px;
+  }
+  .Caps3{
+    display: none;
+  }
+  .Three{
+    top:130px;
+  }
+
+  .Line2{
+    position: absolute;
+
+    left: 30%;
+    width: 8%;
+  }
+  .Inf2{
+    text-align: left;
+    position: absolute;
+    right: 33%;
+    
+    color: rgb(2, 2, 2);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0px;
+  }
+
+
+  .Welcome2{
+    text-align: left;
+    position: absolute;
+    left: 31%;
+    top:40px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0px;
+  width: 220px;
+  }
+  .Reserve2{
+    position: absolute;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  background: linear-gradient(90.00deg, rgba(74,197,216,1.00),rgba(131,172,236,1.00) 100%);
+  padding: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 50px;
+  top: 160px;
+  left: 31%;
+  }
+  .Caps4{
+    right: 70%;
+  }
+  #quest{
+    top: 300px;
+  }
+  #quest1{
+    font-size: 20px;
+  }
+  #quest3, #quest4{
+    font-size: 10px;
+  }
+  #quest4{
+    margin-top: 20px;
+  }
+  #podh1{
+    display: block;
+    margin-top:350px;
+   }
+  
+   #podh2{
+    display: block;
+    position: absolute;
+    top: 180%;
+    
+   }
+   #q1{
+    width: 45%;
+    
+   }
+   #hms{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    
+   }
+
+   .Homes1, .Homes2, .Homes3, .Homes8, .Homes5, .Homes6, .Homes7, .Homes4{
+    width: 100%;
+    
+   }
+   
+   .Hs1 h3{
+    margin-top: 50px;
+  }
+  .Hs2 h3{
+    margin-top: 50px;
+  }
+
+
+.Hs1{
+  display: flex;
+  flex-direction: column;
+}
+.Hs2{
+  display: flex;
+  flex-direction: column;
+}
+
+.Buy{
+  display: flex;
+  flex-direction: column;
+}
+.Homes1-1{
+  width: 100%;
+  height: 100%;
+}
+
+#mail1,
+#tel1{
+  width: 100%;
+  justify-content: center;
+}
+#vso{
+  display: flex;
+  flex-direction: column;
+}
+#list{
+ width: 100%;
+  margin: 0 auto;
+  margin-top: 17%;
+}
+
+  #list input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgba(195,139,249,1.00);
+  
+  }
+  #mail, #tel{
+    font-family: Montserrat;
+    font-size: 12px;
+    margin-left: 25px;
+    text-align: center;
+  }
+  #tel{
+    margin-top: 30px;
+  }
+  #notification{
+    background-color: white;
+    box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.25);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 50px;
+    margin: auto;
+  }
+  
+  #btn2 button{
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: 25px;
+    border-radius: 100px;
+    font-family: Montserrat;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 10px 100px rgb(120, 80, 255);
+     background: linear-gradient(90.00deg, rgba(186,144,247,1.00),rgba(108,150,213,1.00));
+    -webkit-background-clip:
+    text;
+    -webkit-text-fill-color:
+    transparent;
+    background-clip:
+    text;
+    text-fill-color:
+    transparent; 
+   
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #about-us #inform{
+    font-size: 15px;
+  }
+  #my-contacts{
+    padding: 50px;
+    top: 50px;
+  }
+  #my-contacts a, #telega{
+    font-size: 10px;
+  }
+  .Caps10{
+    top: 70%;
+  }
+ }
+ 
+
+ @media screen and ( max-width: 2560px ) and (min-width:1600px) {
+  .Display{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .Display .Nav{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    width: 95%;
+    color: rgb(0, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  }
+  .Pod2{
+    font-size: 30px;
+  }
+  .Caps2{
+    border-radius: 500px;
+  }
+  .Line1{
+    width: 120px;
+  }
+  .Inf{
+    font-size: 40px;
+  }
+  .Welcome{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .Reserve{
+    font-size: 20px;
+    top: 550px;
+  }
+  .Inf1{
+    font-size: 40px;
+  }
+  .Welcome1{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .Reserve1{
+    font-size: 20px;
+  }
+  .Two{
+    top: -100px;
+  }
+  .Inf2{
+    font-size: 40px;
+  }
+  .Line2{
+    width: 120px;
+  }
+  .Welcome2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .Reserve2{
+    top: 550px;
+    font-size: 20px;
+  }
+  .Caps4{
+    border-radius: 500px;
+  }
+  #quest{
+    margin-top: 300px;
+  }
+  #quest3{
+    font-size: 30px;
+  }
+  #quest4{
+    font-size: 30px;
+  }
+  #podh1{
+    width: 100%;
+    margin-top: 800px;
+  }
+  #podh1 h3{
+    font-size: 40px;
+  }
+ 
+  #P1-1,
+.P2,
+#P1-1,
+.P5,
+#P12-1,
+.P-one,
+#P13-1,
+.P3,
+#P14-1,
+.P4{
+  font-size: 30px;
+  line-height: 50px;
+}
+#resrve3{
+  font-size: 20px;
+  max-width: 100%;
+}
+#hms{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 45%;
+}
+#q1{
+  width: 500px;
+}
+#podh2{
+  display: block;
+    position: absolute;
+    top: 273%;
+}
+#podh2{
+  width: 100%;
+}
+#hms1{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 45%;
+}
+#q2{
+  width: 500px;
+}
+#resrve4{
+  font-size: 20px;
+  max-width: 95%;
+
+}
+#podh2 h3{
+  font-size: 40px;
+}
+
+.Pp{
+  width: 100%;
+  
+}
+.Homes1-1{
+width: 800px;
+height: 800px;
+margin-right: 100px;
+}
+
+.P2,
+.P1,
+.P5,
+.P12,
+.P-one,
+.P13,
+.P3,
+.P14,
+.P4{
+  font-size: 30px;
+}
+.calculate-price-btn{
+  font-size: 30px;
+}
+#d-c{
+  font-size: 30px;
+}
+.calendar #d-c{
+  font-size: 30px;
+}
+.text-center{
+  font-size: 30px;
+}
+#days-count{
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+}
+#total-price{
+  font-size: 30px;
+}
+#price1{
+  font-size: 20px;
+}
+#list input{
+  width: 900px;
+  height: 70px;
+  border: 1px solid rgba(195,139,249,1.00);
+font-size: 25px;}
+  #mail, #tel{
+    font-family: Montserrat;
+    font-size: 20px;
+    
+  }
+  #btn2 button{
+    margin-top: 90%;
+    font-size: 40px;
+    margin-left: 70%;
+  }
+  p #inform{
+font-size: 40px;
+  }
+  #num,
+#mail2,
+#soc{
+  font-size: 40px;
+}
+#my-contacts a {
+font-size: 35px;
+}
+#telega{
+  font-size: 35px;
+}
+}
