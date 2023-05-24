@@ -580,7 +580,6 @@ margin-bottom: 150px;
     
   }
   #broniruite{
-    
     font-size: 20px;
   }
   
@@ -899,7 +898,7 @@ margin-bottom: 150px;
  }
  
 
- @media screen and ( max-width: 2560px ) and (min-width:1600px) {
+ @media screen and ( max-width: 2800px ) and (min-width:2560px) {
   .Display{
     max-width: 100%;
     display: flex;
@@ -1007,13 +1006,10 @@ margin-bottom: 150px;
 #q1{
   width: 500px;
 }
-#podh2{
-  display: block;
-    position: absolute;
-    top: 273%;
-}
+
 #podh2{
   width: 100%;
+  margin-top: 800px;
 }
 #hms1{
   display: flex;
@@ -1105,4 +1101,57 @@ font-size: 35px;
 #telega{
   font-size: 35px;
 }
+}
+
+@media screen and ( max-width: 2559px ) and (min-width:2000px){
+
+
+  #quest{
+    margin-top: 150px;
+  }
+  .Two{
+    top: -100px;
+  }
+  .Caps3{
+    top: -40%;
+  }
+  .Inf, .Inf1, .Inf2{
+    font-size: 40px;
+  }
+  .Welcome, .Welcome1, .Welcome2{
+    font-size: 20px;
+  }
+
+  .Reserve, .Reserve1, .Reserve2{
+    font-size: 20px;
+  }
+  #quest3, #quest4{
+    font-size: 20px;
+  }
+  .Homes1, .Homes2, .Homes3, .Homes8, .Homes5, .Homes6, .Homes7, .Homes4{
+    width: 100%;
+    
+   }
+   .Pp{
+    width: 100%;
+    
+  }
+  #price1{
+    font-size: 20px;
+  }
+  #list input{
+    width: 900px;
+    height: 70px;
+    border: 1px solid rgba(195,139,249,1.00);
+  font-size: 25px;}
+    #mail, #tel{
+      font-family: Montserrat;
+      font-size: 20px;
+      
+    }
+    #btn2 button{
+      margin-top: 90%;
+      font-size: 40px;
+      margin-left: 70%;
+    }
 }
